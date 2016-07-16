@@ -1,0 +1,18 @@
+TODO
+====
+
+[ ] Fix special character output
+[ ] Opiniated answer
+[ ] Greeting and smalltalk
+[ ] Skype integration 
+[ ] Telegram integration 
+[ ] FB integration 
+[ ] Localization
+
+DONE
+====
+
+[x] Html parsing
+[x] Prediction extraction
+[x] Unopiniated answer
+[x] LUIS integration

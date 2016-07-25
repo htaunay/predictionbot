@@ -1,0 +1,244 @@
+{
+  "luis_schema_version": "1.3.0",
+  "name": "predictionbot",
+  "desc": "",
+  "culture": "en-us",
+  "intents": [
+    {
+      "name": "JustName"
+    },
+    {
+      "name": "None"
+    },
+    {
+      "name": "NextGame"
+    }
+  ],
+  "entities": [
+    {
+      "name": "team"
+    }
+  ],
+  "composites": [],
+  "bing_entities": [],
+  "actions": [],
+  "model_features": [
+    {
+      "name": "teamname",
+      "mode": true,
+      "words": "botafogo,flamengo,palmeiras,corinthians,gremio,santos,internacional,fluminense,chapecoense",
+      "activated": true
+    }
+  ],
+  "regex_features": [],
+  "utterances": [
+    {
+      "text": "will botafogo win the next game?",
+      "intent": "NextGame",
+      "entities": [
+        {
+          "entity": "team",
+          "startPos": 1,
+          "endPos": 1
+        }
+      ]
+    },
+    {
+      "text": "is flamengo going to win?",
+      "intent": "NextGame",
+      "entities": [
+        {
+          "entity": "team",
+          "startPos": 1,
+          "endPos": 1
+        }
+      ]
+    },
+    {
+      "text": "who will win gremio game next weekend?",
+      "intent": "NextGame",
+      "entities": [
+        {
+          "entity": "team",
+          "startPos": 3,
+          "endPos": 3
+        }
+      ]
+    },
+    {
+      "text": "inter",
+      "intent": "JustName",
+      "entities": []
+    },
+    {
+      "text": "botafogo",
+      "intent": "JustName",
+      "entities": [
+        {
+          "entity": "team",
+          "startPos": 0,
+          "endPos": 0
+        }
+      ]
+    },
+    {
+      "text": "flamengo",
+      "intent": "JustName",
+      "entities": [
+        {
+          "entity": "team",
+          "startPos": 0,
+          "endPos": 0
+        }
+      ]
+    },
+    {
+      "text": "santos",
+      "intent": "JustName",
+      "entities": [
+        {
+          "entity": "team",
+          "startPos": 0,
+          "endPos": 0
+        }
+      ]
+    },
+    {
+      "text": "palmeiras",
+      "intent": "JustName",
+      "entities": [
+        {
+          "entity": "team",
+          "startPos": 0,
+          "endPos": 0
+        }
+      ]
+    },
+    {
+      "text": "will fluminense win?",
+      "intent": "NextGame",
+      "entities": [
+        {
+          "entity": "team",
+          "startPos": 1,
+          "endPos": 1
+        }
+      ]
+    },
+    {
+      "text": "who will win the next botafogo game?",
+      "intent": "NextGame",
+      "entities": [
+        {
+          "entity": "team",
+          "startPos": 5,
+          "endPos": 5
+        }
+      ]
+    },
+    {
+      "text": "chapecoense",
+      "intent": "JustName",
+      "entities": [
+        {
+          "entity": "team",
+          "startPos": 0,
+          "endPos": 0
+        }
+      ]
+    },
+    {
+      "text": "who will win the next flamengo game?",
+      "intent": "NextGame",
+      "entities": [
+        {
+          "entity": "team",
+          "startPos": 5,
+          "endPos": 5
+        }
+      ]
+    },
+    {
+      "text": "gremio",
+      "intent": "JustName",
+      "entities": [
+        {
+          "entity": "team",
+          "startPos": 0,
+          "endPos": 0
+        }
+      ]
+    },
+    {
+      "text": "who will win the next botafogo game?]",
+      "intent": "NextGame",
+      "entities": [
+        {
+          "entity": "team",
+          "startPos": 5,
+          "endPos": 5
+        }
+      ]
+    },
+    {
+      "text": "atletico-pr",
+      "intent": "JustName",
+      "entities": [
+        {
+          "entity": "team",
+          "startPos": 0,
+          "endPos": 0
+        }
+      ]
+    },
+    {
+      "text": "hey",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "corinthians",
+      "intent": "JustName",
+      "entities": [
+        {
+          "entity": "team",
+          "startPos": 0,
+          "endPos": 0
+        }
+      ]
+    },
+    {
+      "text": "what about fluminense next game?",
+      "intent": "NextGame",
+      "entities": [
+        {
+          "entity": "team",
+          "startPos": 2,
+          "endPos": 2
+        }
+      ]
+    },
+    {
+      "text": "what botafogo next game looking like?",
+      "intent": "NextGame",
+      "entities": [
+        {
+          "entity": "team",
+          "startPos": 1,
+          "endPos": 1
+        }
+      ]
+    },
+    {
+      "text": "who will win the next gremio game?",
+      "intent": "NextGame",
+      "entities": [
+        {
+          "entity": "team",
+          "startPos": 5,
+          "endPos": 5
+        }
+      ]
+    }
+  ]
+}
